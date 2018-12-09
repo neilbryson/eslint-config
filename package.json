@@ -1,9 +1,20 @@
 {
   "name": "@neilbryson/eslint-config",
   "author": "Neil Bryson Cargamento <neilbryson@live.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "keywords": [
+    "code standards",
+    "eslint",
+    "lint",
+    "linter",
+    "linting"
+  ],
   "devDependencies": {
-    "eslint": "5.6.0"
+    "eslint": "^5.6.0"
   },
-  "license": "MIT"
+  "peerDependencies": {
+    "eslint": ">=5.6.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/neilbryson/eslint-config"
 }
