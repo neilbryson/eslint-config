@@ -1,5 +1,5 @@
-{
-  "extends": ["eslint:recommended"],
+module.exports = {
+  "extends": ["eslint:recommended", "react-app"],
   "parserOptions": {
     "ecmaVersion": 2016,
     "ecmaFeatures": {
@@ -31,4 +31,4 @@
     "prefer-numeric-literals": "error",
     "sort-keys": "warn"
   }
-}
+};
