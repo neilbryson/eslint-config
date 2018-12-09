@@ -2,7 +2,7 @@
   "name": "@neilbryson/eslint-config",
   "description": "An ESLint configuration, with additional rules for readability and stylistic code, for React projects.",
   "author": "Neil Bryson Cargamento <neilbryson@live.com>",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "keywords": [
     "code standards",
@@ -20,5 +20,9 @@
     "eslint-config-react-app": "^3.0.5"
   },
   "license": "MIT",
-  "homepage": "https://github.com/neilbryson/eslint-config"
+  "homepage": "https://github.com/neilbryson/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neilbryson/eslint-config.git"
+  }
 }
