@@ -14,7 +14,7 @@ module.exports = {
     "eol-last": "warn",
     "eqeqeq": "warn",
     "jsx-quotes": ["error", "prefer-double"],
-    "indent": ["warn", 2],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
     "no-else-return": "warn",
     "no-eval": "error",
     "no-lonely-if": "error",
