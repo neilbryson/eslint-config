@@ -1,5 +1,5 @@
 {
-  "name": "react-eslint-config",
+  "name": "@neilbryson/eslint-config",
   "author": "Neil Bryson Cargamento <neilbryson@live.com>",
   "version": "1.0.1",
   "devDependencies": {
