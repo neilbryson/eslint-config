@@ -1,12 +1,12 @@
 # eslint-config
-An ESLint configuration, with additional rules for readability and stylistic code, for React projects. 
+An ESLint configuration, with additional rules for readability and stylistic code, for ES2015 / React projects. 
 
 Extends `eslint:recommended` and `eslint-config-react-app`.
 
-# Installation
+## Installation
 Run `npm install --save-dev @neilbryson/eslint-config`
 
-# Usage
+## Usage
 Add this to the `extends` field of `.eslintrc` :
 
 Option 1:
@@ -22,3 +22,6 @@ Option 2:
   "extends": "@neilbryson/eslint-config"
 }
 ```
+
+## License
+[MIT](/LICENSE)
