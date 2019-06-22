@@ -33,7 +33,6 @@ module.exports = {
     "prefer-const": "error",
     "prefer-numeric-literals": "error",
     "require-await": "error",
-    "semi": ["error", "always"],
-    "sort-keys": "warn"
+    "semi": ["error", "always"]
   }
 };
