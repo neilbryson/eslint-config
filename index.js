@@ -1,11 +1,16 @@
 module.exports = {
-  "extends": ["eslint:recommended", "react-app"],
-  "parserOptions": {
-    "ecmaVersion": 2016,
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "react-app",
+    "prettier",
+    "plugin:prettier/recommended",
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+  ],
   "rules": {
     "array-callback-return": "error",
     "comma-dangle": ["warn", "always-multiline"],
@@ -13,13 +18,13 @@ module.exports = {
     "default-case": "warn",
     "eol-last": "warn",
     "eqeqeq": "error",
-    "jsx-quotes": ["error", "prefer-double"],
     "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "jsx-quotes": ["error", "prefer-double"],
     "no-alert": "warn",
+    "no-duplicate-imports": "error",
     "no-else-return": "warn",
     "no-eval": "error",
     "no-lonely-if": "error",
-    "no-duplicate-imports": "error",
     "no-multiple-empty-lines": "warn",
     "no-nested-ternary": "error",
     "no-self-compare": "error",
@@ -32,6 +37,7 @@ module.exports = {
     "operator-linebreak": ["error", "before"],
     "prefer-const": "error",
     "prefer-numeric-literals": "error",
+    "prettier/prettier": "warn",
     "require-await": "error",
     "semi": ["error", "always"]
   }
