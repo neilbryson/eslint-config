@@ -3,3 +3,4 @@ test.*
 tsconfig.json
 README.md
 .idea/
+.editorconfig
