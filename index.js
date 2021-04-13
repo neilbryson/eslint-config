@@ -34,11 +34,10 @@ module.exports = {
     "no-useless-constructor": "warn",
     "no-useless-return": "warn",
     "no-var": "warn",
-    "operator-linebreak": ["error", "before"],
     "prefer-const": "error",
     "prefer-numeric-literals": "error",
     "prettier/prettier": "warn",
     "require-await": "error",
-    "semi": ["error", "always"]
-  }
+    "semi": ["error", "always"],
+  },
 };
