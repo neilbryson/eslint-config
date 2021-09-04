@@ -2,7 +2,7 @@
   "name": "@neilbryson/eslint-config",
   "description": "An ESLint configuration, with additional rules for readability and stylistic code, for React and TypeScript projects.",
   "author": "Neil Bryson Cargamento <neilbrysonmc@gmail.com>",
-  "version": "4.0.3",
+  "version": "4.1.0",
   "main": "index.js",
   "keywords": [
     "code standards",
