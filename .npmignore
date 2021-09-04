@@ -3,3 +3,4 @@ test.*
 tsconfig.json
 .idea/
 .editorconfig
+.prettierrc.yml

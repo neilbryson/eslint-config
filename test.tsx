@@ -1,4 +1,19 @@
-import React, { HTMLAttributes, ReactElement } from "react";
+import React, { HTMLAttributes, ReactElement } from 'react';
+
+const longArray = [
+  'hello world',
+  'hello world',
+  'hello world',
+  'hello world',
+  'hello world',
+  'hello world',
+  'hello world',
+  'hello world',
+  'hello world',
+  'hello world',
+];
+
+longArray.push('hello world');
 
 export const TestComponent = (props: HTMLAttributes<HTMLDivElement>): ReactElement<HTMLDivElement> => {
   return <div {...props}>Hello world</div>;
