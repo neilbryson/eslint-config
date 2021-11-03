@@ -2,7 +2,7 @@
   "name": "@neilbryson/eslint-config",
   "description": "An ESLint configuration, with additional rules for readability and stylistic code, for React and TypeScript projects.",
   "author": "Neil Bryson Cargamento <neilbrysonmc@gmail.com>",
-  "version": "5.0.0-alpha",
+  "version": "5.0.0-alpha-1",
   "main": "index.js",
   "keywords": [
     "code standards",
@@ -16,6 +16,19 @@
     "linting",
     "typescript"
   ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "babel-eslint": "^10.0.3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
   "devDependencies": {
     "@types/react": "^17.0.3",
     "eslint": "^7.28.0",
