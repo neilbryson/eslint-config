@@ -26,3 +26,7 @@ export const Sample = (): ReturnType<typeof Sample> => {
 
   return <TestComponent id="test_id" onClick={onClick} />;
 };
+
+function arrays(arg: readonly unknown[]) {
+  return arg;
+}

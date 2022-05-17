@@ -1,8 +1,6 @@
 # eslint-config
 An ESLint configuration, with additional rules for readability and stylistic code, for React/TypeScript projects. 
 
-Extends `eslint:recommended` and `eslint-config-react-app`.
-
 ## Installation
 Run `npm install --save-dev @neilbryson/eslint-config`
 
@@ -20,6 +18,17 @@ Option 2:
 ```json
 {
   "extends": "@neilbryson/eslint-config"
+}
+```
+
+This ESLint config uses [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) so
+make sure that the parser is correctly configured.
+
+```json
+{
+  "parserOptions": {
+    "project": "./path/to/tsconfig.json"
+  }
 }
 ```
 

@@ -12,6 +12,12 @@ module.exports = {
     "prettier",
   ],
   "rules": {
+    "@typescript-eslint/no-duplicate-enum-values": "warn",
+    "@typescript-eslint/no-empty-function": "warn",
+    "@typescript-eslint/prefer-for-of": "warn",
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
+    "@typescript-eslint/prefer-optional-chain": "warn",
+    "@typescript-eslint/prefer-readonly-parameter-types": ["warn", { "ignoreInferredTypes": true }],
     "array-callback-return": "error",
     "comma-dangle": ["warn", "always-multiline"],
     "comma-spacing": "warn",
