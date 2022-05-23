@@ -30,7 +30,7 @@ jobs:
           cache: 'npm'
           registry-url: 'https://registry.npmjs.org'
       - name: Canary version update
-        run: npm version prerelease --preid=canary
+        run: npm version prerelease --preid=canary --commit-hooks=false --git-tag-version=false
       - run: npm ci
       - run: npm publish --tag canary
         env:
