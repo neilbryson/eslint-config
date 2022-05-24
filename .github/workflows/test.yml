@@ -32,7 +32,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Canary version update
         run: |
-          NEXT_VERSION="${$(npm version prerelease --preid=canary --commit-hooks=false --git-tag-version=false):1}"
+          CANARY_TAG="$(npm version prerelease --preid=canary --commit-hooks=false --git-tag-version=false)"
+          NEXT_VERSION="${CANARY_TAG:1}"
           GIT_SHA="$(git rev-parse --short HEAD)"
           sed -i "s/${NEXT_VERSION}/${NEXT_VERSION}-${GIT_SHA}/" package.json
           sed -i "s/${NEXT_VERSION}/${NEXT_VERSION}-${GIT_SHA}/g" package-lock.json
