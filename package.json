@@ -2,7 +2,7 @@
   "name": "@neilbryson/eslint-config",
   "description": "An ESLint configuration, with additional rules for readability and stylistic code, for React and TypeScript projects.",
   "author": "Neil Bryson Cargamento <neilbrysonmc@gmail.com>",
-  "version": "8.1.0",
+  "version": "8.2.0",
   "main": "index.js",
   "engines": {
     "npm": ">=7.0.0"
@@ -19,8 +19,8 @@
   ],
   "devDependencies": {
     "@types/react": "^17.0.3",
-    "@typescript-eslint/eslint-plugin": "5.22.0",
-    "@typescript-eslint/parser": "5.22.0",
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^7.0.0",
@@ -35,8 +35,8 @@
     "typescript": "^4.5.4"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 5.22.0",
-    "@typescript-eslint/parser": ">= 5.22.0",
+    "@typescript-eslint/eslint-plugin": ">= 5.18.0",
+    "@typescript-eslint/parser": ">= 5.18.0",
     "eslint": ">= 8.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^7.0.0",

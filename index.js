@@ -12,7 +12,6 @@ module.exports = {
     "prettier",
   ],
   "rules": {
-    "@typescript-eslint/no-duplicate-enum-values": "warn",
     "@typescript-eslint/no-duplicate-imports": "error",
     "@typescript-eslint/no-empty-function": "warn",
     "@typescript-eslint/no-explicit-any": "error",
