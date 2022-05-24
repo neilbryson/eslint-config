@@ -9,11 +9,11 @@
     "module": "esnext",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "noEmit": true
+    "noEmit": true,
+    "strict": true,
+    "strictNullChecks": true
   },
   "include": [
-    "tests/ts/test.tsx"
-  ],
-  "allowSyntheticDefaultImports": true,
-  "esModuleInterop": true
+    "tests/ts"
+  ]
 }

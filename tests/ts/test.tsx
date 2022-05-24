@@ -1,4 +1,4 @@
-import React, { HTMLAttributes, ReactElement } from 'react';
+import React, { type HTMLAttributes, type ReactElement } from 'react';
 
 const longArray = [
   'hello world',
@@ -19,7 +19,7 @@ export const TestComponent = (props: HTMLAttributes<HTMLDivElement>): ReactEleme
   return <div {...props}>Hello world</div>;
 };
 
-export const Sample = (): ReturnType<typeof Sample> => {
+export const Sample = (): ReturnType<typeof TestComponent> => {
   function onClick(): void {
     return void 0;
   }
@@ -30,3 +30,10 @@ export const Sample = (): ReturnType<typeof Sample> => {
 function arrays(arg: readonly unknown[]) {
   return arg;
 }
+
+arrays([]);
+
+['arr'].reduce<Record<string, string>>((acc, curr, index) => {
+  acc[curr] = index.toString();
+  return acc;
+}, {});

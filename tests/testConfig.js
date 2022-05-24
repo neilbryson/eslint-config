@@ -1,6 +1,8 @@
+const path = require('path');
+
 module.exports = {
-  "extends": "../index.js",
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
+  extends: path.resolve(process.cwd(), 'index.js'),
+  parserOptions: {
+    project: path.resolve(process.cwd(), './tsconfig.json'),
+  },
 }

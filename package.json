@@ -11,12 +11,10 @@
     "code standards",
     "es2015",
     "es6",
-    "eslint",
-    "javascript",
-    "js",
     "lint",
     "linter",
     "linting",
+    "react",
     "typescript"
   ],
   "devDependencies": {
