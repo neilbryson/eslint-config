@@ -2,7 +2,7 @@
   "name": "@neilbryson/eslint-config",
   "description": "An ESLint configuration, with additional rules for readability and stylistic code, for React and TypeScript projects.",
   "author": "Neil Bryson Cargamento <neilbrysonmc@gmail.com>",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "main": "index.js",
   "engines": {
     "npm": ">=7.0.0"
