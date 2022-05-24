@@ -30,13 +30,13 @@ jobs:
           node-version: '16'
           cache: 'npm'
           registry-url: 'https://registry.npmjs.org'
-      - name: Canary version update
+      - name: Canary version tag
         run: |
-          CANARY_TAG="$(npm version prerelease --preid=canary --commit-hooks=false --git-tag-version=false)"
-          NEXT_VERSION="${CANARY_TAG:1}"
+          CURRENT_VERSION="$(npm pkg get version | tr -d '"')"
           GIT_SHA="$(git rev-parse --short HEAD)"
-          sed -i "s/${NEXT_VERSION}/${NEXT_VERSION}-${GIT_SHA}/" package.json
-          sed -i "s/${NEXT_VERSION}/${NEXT_VERSION}-${GIT_SHA}/g" package-lock.json
+          NEXT_VERSION="$CURRENT_VERSION-canary.0+$GIT_SHA"
+          sed -i "s/${CURRENT_VERSION}/${NEXT_VERSION}/" package.json
+          sed -i "s/${CURRENT_VERSION}/${NEXT_VERSION}/g" package-lock.json
       - run: npm ci
       - run: npm publish --tag canary
         env:
