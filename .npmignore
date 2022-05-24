@@ -5,3 +5,4 @@ tsconfig.json
 .idea/
 .editorconfig
 .prettierrc.yml
+.github/
