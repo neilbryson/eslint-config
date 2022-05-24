@@ -13,6 +13,7 @@ module.exports = {
   ],
   "rules": {
     "@typescript-eslint/no-duplicate-enum-values": "warn",
+    "@typescript-eslint/no-duplicate-imports": "error",
     "@typescript-eslint/no-empty-function": "warn",
     "@typescript-eslint/prefer-for-of": "warn",
     "@typescript-eslint/prefer-nullish-coalescing": "warn",

@@ -1,6 +1,5 @@
 package-lock.json
-test.*
-testConfig.js
+tests/
 tsconfig.json
 .idea/
 .editorconfig

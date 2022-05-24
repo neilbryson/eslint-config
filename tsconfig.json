@@ -11,7 +11,9 @@
     "allowSyntheticDefaultImports": true,
     "noEmit": true
   },
-  "include": ["test.tsx"],
+  "include": [
+    "tests/ts/test.tsx"
+  ],
   "allowSyntheticDefaultImports": true,
   "esModuleInterop": true
 }

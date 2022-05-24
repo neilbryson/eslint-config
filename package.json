@@ -57,6 +57,6 @@
     "url": "https://github.com/neilbryson/eslint-config.git"
   },
   "scripts": {
-    "test": "eslint -c testConfig.js \"test.[jt]s?(x)\""
+    "test": "eslint -c tests/testConfig.js tests/ts --ext .ts,.tsx"
   }
 }
